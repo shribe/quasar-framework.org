@@ -16,7 +16,7 @@ $ quasar build
 ```
 For possible build options please refer to the [Quasar CLI docs](/guide/quasar-cli).
 
-This command will build your project in SPA mode and output your production ready bundle to a newly created folder `/dist/spa-<theme>` were `<theme>` is replaced by the theme you chose to build with.
+This command will build your project in SPA mode and output your production ready bundle to a newly created folder `/dist/spa-<theme>` where `<theme>` is replaced by the theme you chose to build with.
 
 To serve your production files it is *required* to use a web server, so to serve over http:// protocol. Simply opening the `index.html` file from within your browser will not work, since this uses the file:// protocol instead.
 
@@ -111,7 +111,7 @@ To deploy your Quasar application to GitHub pages the first step is to create a 
 
 Next, you need to build your Quasar application like it is described in [the general deployment section](#General-deployment). This will result in a `spa-<theme>` directory inside the `dist` directory. Copy the content of this folder to your cloned repository.
 
-The last step is to add a commit in your repository an push to GitHub. After a short time, you should be able to visit your Quasar application at https://<username>.github.io/.
+The last step is to add a commit in your repository an push to GitHub. After a short time, you should be able to visit your Quasar application at https://\<username\>.github.io/.
 
 ### Adding a custom domain to GitHub pages
 
